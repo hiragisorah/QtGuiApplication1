@@ -33,17 +33,44 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QtGuiApplication1.cpp">
+    <ClCompile Include="..\game-base\rionos\title.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-base\rionos\second-scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-base\rionos\main-scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main-window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub-window-1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub-window-2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="QtGuiApplication1.h">
+    <QtMoc Include="main-window.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="sub-window-2.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="sub-window-1.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="QtGuiApplication1.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="sub1.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="sub2.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
@@ -54,5 +81,19 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="QtGuiApplication1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\game-base\rionos\title.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-base\rionos\second-scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-base\rionos\main-scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-base\rionos\rendering-system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
