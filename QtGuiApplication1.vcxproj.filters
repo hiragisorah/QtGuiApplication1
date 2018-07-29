@@ -33,12 +33,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\game-base\rionos\title.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\game-base\rionos\second-scene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\game-base\rionos\main-scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -49,6 +43,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sub-window-2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-base\rionos\rendering-system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -83,17 +80,37 @@
     <ResourceCompile Include="QtGuiApplication1.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\game-base\rionos\title.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\game-base\rionos\second-scene.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\game-base\rionos\main-scene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\game-base\rionos\rendering-system.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\game-base\resource\shader\default3d.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="..\game-base\resource\shader\default2d.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="..\game-base\resource\shader\2d6.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="..\game-base\resource\shader\2d2.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="..\game-base\resource\shader\2d3.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="..\game-base\resource\shader\2d4.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="..\game-base\resource\shader\2d5.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="..\game-base\resource\shader\2d1.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
